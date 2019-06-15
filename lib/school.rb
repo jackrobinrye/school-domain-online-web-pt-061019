@@ -25,4 +25,6 @@ class School
     keys.each do |key|
       @roster[key].sort
     end
+  end
+  
 end
