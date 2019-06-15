@@ -6,7 +6,7 @@ class School
   
   def initialize(name)
     @name = name
-    
+    @@roster[7] = []
   end
   
   def roster
@@ -14,7 +14,7 @@ class School
   end
   
   def add_student(student, grade)
-    @@roster[grade] = grade
+    @@roster[grade] << student
 
   end
   
